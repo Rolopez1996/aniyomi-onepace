@@ -1,0 +1,2 @@
+rootProject.name = "Aniyomi-OnePace"
+include ':app'
