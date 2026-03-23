@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace "eu.kanade.tachiyomi.animeextension.es.onepace"
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "eu.kanade.tachiyomi.animeextension.es.onepace"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    implementation "org.jsoup:jsoup:1.15.3"
+}
